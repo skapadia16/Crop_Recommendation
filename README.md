@@ -1,4 +1,4 @@
-🌱 Agriculture Crop Recommendation Using Machine Learning
+##🌱 Agriculture Crop Recommendation Using Machine Learning
 
 A Machine Learning project that recommends the most suitable crop based on soil and environmental conditions such as Nitrogen, Phosphorus, Potassium, temperature, humidity, pH, and rainfall.
 
