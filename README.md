@@ -1,10 +1,10 @@
-##🌱 Agriculture Crop Recommendation Using Machine Learning
+#🌱 Agriculture Crop Recommendation Using Machine Learning
 
 A Machine Learning project that recommends the most suitable crop based on soil and environmental conditions such as Nitrogen, Phosphorus, Potassium, temperature, humidity, pH, and rainfall.
 
 The project uses a Random Forest Classifier to predict the recommended crop.
 
-📌 Project Overview
+#📌 Project Overview
 
 Choosing the right crop is an important decision in agriculture. Different crops require different soil nutrients and environmental conditions.
 
@@ -32,7 +32,7 @@ The model predicts the most suitable crop, for example:
 
 Recommended Crop: Rice
 
-🎯 Objectives
+#🎯 Objectives
 
 Analyze agricultural data.
 
@@ -46,7 +46,7 @@ Evaluate model performance.
 
 Predict the suitable crop for new input data.
 
-🛠️ Technologies Used
+#🛠️ Technologies Used
 
 Python
 
@@ -62,7 +62,9 @@ Scikit-learn — Machine Learning
 
 Jupyter Notebook — Development and experimentation
 
-📂 Project Structure
+Stremlit
+
+#📂 Project Structure
 Agriculture-Crop-Recommendation/
 │
 ├── data/
@@ -75,7 +77,7 @@ Agriculture-Crop-Recommendation/
 │
 └── requirements.txt
 
-📊 Dataset
+#📊 Dataset
 
 The dataset contains agricultural and environmental parameters along with the corresponding crop label.
 
@@ -88,7 +90,7 @@ humidity	Humidity
 ph	Soil pH
 rainfall	Rainfall
 label	Recommended crop
-🔍 Data Preprocessing
+#🔍 Data Preprocessing
 
 The following steps were performed before model training:
 
@@ -114,7 +116,7 @@ print(df.head())
 print(df.shape)
 print(df.isnull().sum())
 
-🧹 Feature and Target Separation
+#🧹 Feature and Target Separation
 
 The label column is used as the target variable.
 
@@ -141,7 +143,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=42
 )
 
-🌳 Machine Learning Model
+#🌳 Machine Learning Model
 Random Forest Classifier
 
 A Random Forest Classifier is used for crop recommendation.
@@ -158,7 +160,7 @@ model.fit(X_train, y_train)
 
 Random Forest is an ensemble learning algorithm that combines multiple decision trees to make predictions.
 
-📈 Model Evaluation
+#📈 Model Evaluation
 
 Predictions are generated using the test dataset:
 
@@ -189,7 +191,7 @@ Add your actual model accuracy here after training the final model.
 
 Model Accuracy: XX.XX%
 
-🌳 Decision Tree Visualization
+#🌳 Decision Tree Visualization
 
 Since Random Forest consists of multiple Decision Trees, one individual tree can be visualized:
 
@@ -211,7 +213,7 @@ plt.show()
 
 This visualization helps understand how an individual tree makes classification decisions.
 
-🔮 Crop Prediction
+#🔮 Crop Prediction
 
 The trained model can predict a crop from new agricultural conditions.
 
@@ -269,7 +271,7 @@ Run Jupyter Notebook:
 
 jupyter notebook
 
-📦 Requirements
+#📦 Requirements
 
 Create a requirements.txt file:
 
@@ -285,7 +287,7 @@ Then install:
 
 pip install -r requirements.txt
 
-📌 Key Learning Outcomes
+#📌 Key Learning Outcomes
 
 Through this project, I learned:
 
@@ -307,9 +309,9 @@ Decision Tree visualization
 
 Making predictions with a trained ML model
 
-👨‍💻 Author
+#👨‍💻 Author
 
-Shreyas Kapadiya 
+Shreyas Kapadiya
 
 ⭐ Support
 
